@@ -501,6 +501,8 @@ blockquote p {
     width: 82.5%;
     float: right;
     margin-right: 0;
+    -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   }
   .page .page-title {
     padding: 0 3.6rem;
@@ -534,8 +536,8 @@ blockquote p {
 }
 .author-avatar img {
   width: 100%;
-  max-width: 110px;
-  border-radius: 50%;
+  max-width: 200px;
+  border-radius: 0%;
 }
 .author-discrip {
   display: table-cell;
@@ -711,6 +713,8 @@ blockquote p {
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
+    -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   }
   .side-card .card-wrap {
     padding: 10px 10px 10px 17px;
@@ -731,7 +735,7 @@ blockquote p {
     text-align: center;
   }
   .author-avatar img {
-    padding: 5px;
+    padding: 0px;
     border: 1px solid #f2f3f3;
   }
   .author-discrip {
