@@ -306,7 +306,7 @@ blockquote p {
   }
   .menus_items {
     visibility: hidden;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     right: 10px;
     margin: 0;
