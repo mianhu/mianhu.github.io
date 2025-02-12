@@ -306,7 +306,7 @@ blockquote p {
   }
   .menus_items {
     visibility: hidden;
-    opacity: 1;
+    opacity: 0;
     position: absolute;
     right: 10px;
     margin: 0;
@@ -710,7 +710,7 @@ blockquote p {
     min-width: 165px;
     float: left;
     margin-right: 1.69492%;
-    opacity: 0.75;
+    opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
     -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
